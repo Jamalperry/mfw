@@ -1,0 +1,36 @@
+h1 {
+  color: #ffg;
+  text-align: left;
+  font-style: italic;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 40px;
+  line-height: 5px;
+}
+h2 {
+  color: lightblue;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 30px;
+  line-height: normal;
+}
+p {
+  color: grey;
+  text-align: left;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  line-height: 5px;
+}
+ul li {
+  color: grey;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  line-height: normal;
+}

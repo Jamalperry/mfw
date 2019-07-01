@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head> 
-    <meta charset="utf-8"> 
-    <title>My First Webpage #1</title> 
+  <head>
+    <meta charset="utf-8">
+    <title>My First Webpage #1</title>
 <!--
 The <!DOCTYPE html> tag tells the browser that this document contains HTML, and specifically that it contains the newest version of HTML, HTML5. (An example of a doctype for an older version of HTML is <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">.)
-
 The <head> tag contains information about the page, which for now is just the <title> tag. The <title> tag sets the title for the web page - if you look in your browser, you can see that the title of the browser tab is now Web page #1!.
 -->
-    <meta name="viewport"         content="width=device-width, initial-scale=1"> 
-    <link rel="stylesheet" type="text/css" href="http://barcode.htmlcodeplay.com/bootstrap/css/bootstrap.css"> 
-     <link rel="stylesheet" href="http://barcode.htmlcodeplay.com/bootstrap/css/bootstrap-theme.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/styles2.css" rel="stylesheet" type="text/css">
   </head>
-  <body> 
     <h1>My first web page</h1>
-    <h2>Written with the guidance of Epicodus
-    </h2> 
+    <h2>Written with the guidance of <em>Epicodus</em>
+    </h2>
 <!--
 Here, we've added a main header(<h1>) and a subheader (<h2>). You can actually add up to six different levels of headers using <h1> through <h6>. Like the paragraph tags, we have an opening tag that indicates where the header begins (<h1>) and a closing tag that indicates where it ends (</h1>) . Closing tags always match the header but have a backslash in front.
-
 HTML ignores empty spaces and blank lines, which is called whitespace. That's why the extra line we might add between our headers and paragraphs doesn't do anything when it is displayed. We could take it out, or make it three spaces, and it would look exactly the same in the browser.
 -->
-    <p>This is my first web page!</p>
+    <p>This is <strong>my first web page!</strong></p>
     <p>Isn't it nice?</p>
 <!--
 The instructions for formatting around the text are called tags. The <p> is called a p tag. It means that everything that follows is a paragraph, until </p> is reached. The </p> is called a closing tag or end tag and indicates the paragraph is at its end. The <p> is a block element because it is written on its own line and creates a block of content on the displayed page.
 -->
     <p>Here are some things I'm going to learn about coding:
-    </p> 
+    </p>
     <ul>
       <li>HTML</li>
-       <li>CSS</li>
-       <li>JavaScript</li>
-       <li>And a lots more!</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>And a lots more!</li>
     </ul>
 <!--
 Here we've added an unordered list (<ul>) with four list items(<li>). If we wanted to make an ordered list that uses numbers and letters instead of bullets, we would use an <ol> tag instead of a <ul>.
-
 Notice how I've indented the <li>s within the <ul>s. This makes it much easier to read which tags are nested, and makes it easy to see where the closing tag goes when it's not on the same line. It's a good practice to indent using two spaces (tabs are often rendered as different widths, whereas spaces are standard). It's also a good idea to write your closing tag just after you write your opening tag, and then go back and fill in whatever comes in the middle. This way, you won't forget to close a tag after you've opened it.
 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js">
-    </script> 
+    </script>
     <script src="http://barcode.htmlcodeplay.com/bootstrap/js/bootstrap.min.js">
-    </script> 
+    </script>
   </body>
 </html>
